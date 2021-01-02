@@ -1,0 +1,46 @@
+{
+  "name": "@pubbo/command",
+  "version": "3.21.0",
+  "description": "Lerna's internal base class for commands",
+  "keywords": [
+    "lerna",
+    "core"
+  ],
+  "homepage": "https://github.com/lerna/lerna/tree/master/core/command#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Stockman",
+    "url": "https://github.com/evocateur"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerna/lerna.git",
+    "directory": "core/command"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@pubbo/child-process": "file:../child-process",
+    "@pubbo/package-graph": "file:../package-graph",
+    "@pubbo/project": "file:../project",
+    "@pubbo/validation-error": "file:../validation-error",
+    "@pubbo/write-log-file": "file:../../utils/write-log-file",
+    "clone-deep": "^4.0.1",
+    "dedent": "^0.7.0",
+    "execa": "^1.0.0",
+    "is-ci": "^2.0.0",
+    "npmlog": "^4.1.2"
+  }
+}

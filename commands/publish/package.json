@@ -1,0 +1,68 @@
+{
+  "name": "@pubbo/publish",
+  "version": "0.0.0",
+  "description": "Publish packages in the current project",
+  "keywords": [
+    "lerna",
+    "command"
+  ],
+  "homepage": "https://github.com/lerna/lerna/tree/master/commands/publish#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Stockman",
+    "url": "https://github.com/evocateur"
+  },
+  "files": [
+    "command.js",
+    "index.js",
+    "lib",
+    "!lib/__mocks__"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerna/lerna.git",
+    "directory": "commands/publish"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@evocateur/libnpmaccess": "^3.1.2",
+    "@evocateur/npm-registry-fetch": "^4.0.0",
+    "@evocateur/pacote": "^9.6.3",
+    "@pubbo/check-working-tree": "file:../../utils/check-working-tree",
+    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/collect-updates": "file:../../utils/collect-updates",
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/describe-ref": "file:../../utils/describe-ref",
+    "@pubbo/log-packed": "file:../../utils/log-packed",
+    "@pubbo/npm-conf": "file:../../utils/npm-conf",
+    "@pubbo/npm-dist-tag": "file:../../utils/npm-dist-tag",
+    "@pubbo/npm-publish": "file:../../utils/npm-publish",
+    "@pubbo/otplease": "file:../../core/otplease",
+    "@pubbo/output": "file:../../utils/output",
+    "@pubbo/pack-directory": "file:../../utils/pack-directory",
+    "@pubbo/prerelease-id-from-version": "file:../../utils/prerelease-id-from-version",
+    "@pubbo/prompt": "file:../../core/prompt",
+    "@pubbo/pulse-till-done": "file:../../utils/pulse-till-done",
+    "@pubbo/run-lifecycle": "file:../../utils/run-lifecycle",
+    "@pubbo/run-topologically": "file:../../utils/run-topologically",
+    "@pubbo/validation-error": "file:../../core/validation-error",
+    "@pubbo/version": "file:../version",
+    "figgy-pudding": "^3.5.1",
+    "fs-extra": "^8.1.0",
+    "npm-package-arg": "^6.1.0",
+    "npmlog": "^4.1.2",
+    "p-finally": "^1.0.0",
+    "p-map": "^2.1.0",
+    "p-pipe": "^1.2.0",
+    "semver": "^6.2.0"
+  }
+}

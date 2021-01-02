@@ -1,0 +1,55 @@
+{
+  "name": "pubbo",
+  "version": "3.21.0",
+  "description": "A tool for managing JavaScript projects with multiple packages.",
+  "keywords": [
+    "lerna",
+    "monorepo",
+    "multi-package",
+    "pubbo"
+  ],
+  "homepage": "https://github.com/lerna/lerna#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Robbie Cook",
+    "email": "robbie@robbie.pw"
+  },
+  "bin": {
+    "lerna": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerna/lerna.git",
+    "directory": "core/lerna"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@pubbo/add": "file:../../commands/add",
+    "@pubbo/bootstrap": "file:../../commands/bootstrap",
+    "@pubbo/changed": "file:../../commands/changed",
+    "@pubbo/clean": "file:../../commands/clean",
+    "@pubbo/cli": "file:../cli",
+    "@pubbo/create": "file:../../commands/create",
+    "@pubbo/diff": "file:../../commands/diff",
+    "@pubbo/exec": "file:../../commands/exec",
+    "@pubbo/import": "file:../../commands/import",
+    "@pubbo/info": "file:../../commands/info",
+    "@pubbo/init": "file:../../commands/init",
+    "@pubbo/link": "file:../../commands/link",
+    "@pubbo/list": "file:../../commands/list",
+    "@pubbo/publish": "file:../../commands/publish",
+    "@pubbo/run": "file:../../commands/run",
+    "@pubbo/version": "file:../../commands/version",
+    "import-local": "^2.0.0",
+    "npmlog": "^4.1.2"
+  }
+}

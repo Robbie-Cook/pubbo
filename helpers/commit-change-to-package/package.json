@@ -1,0 +1,14 @@
+{
+  "name": "@pubbo-test/commit-change-to-package",
+  "version": "0.0.0-test-only",
+  "description": "A local test helper",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@pubbo-test/git-add": "file:../git-add",
+    "@pubbo-test/git-commit": "file:../git-commit",
+    "load-json-file": "^5.3.0",
+    "write-json-file": "^3.2.0"
+  }
+}

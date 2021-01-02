@@ -1,0 +1,15 @@
+{
+  "name": "@pubbo-test/clone-fixture",
+  "version": "0.0.0-test-only",
+  "description": "A local test helper",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@pubbo-test/git-init": "file:../git-init",
+    "@pubbo-test/init-fixture": "file:../init-fixture",
+    "execa": "^1.0.0",
+    "file-url": "^2.0.2",
+    "tempy": "^0.2.1"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@pubbo/bootstrap",
+  "version": "3.21.0",
+  "description": "Link local packages together and install remaining package dependencies",
+  "keywords": [
+    "lerna",
+    "command"
+  ],
+  "homepage": "https://github.com/lerna/lerna/tree/master/commands/bootstrap#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Stockman",
+    "url": "https://github.com/evocateur"
+  },
+  "files": [
+    "command.js",
+    "index.js",
+    "lib"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerna/lerna.git",
+    "directory": "commands/bootstrap"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/filter-options": "file:../../core/filter-options",
+    "@pubbo/has-npm-version": "file:../../utils/has-npm-version",
+    "@pubbo/npm-install": "file:../../utils/npm-install",
+    "@pubbo/package-graph": "file:../../core/package-graph",
+    "@pubbo/pulse-till-done": "file:../../utils/pulse-till-done",
+    "@pubbo/rimraf-dir": "file:../../utils/rimraf-dir",
+    "@pubbo/run-lifecycle": "file:../../utils/run-lifecycle",
+    "@pubbo/run-topologically": "file:../../utils/run-topologically",
+    "@pubbo/symlink-binary": "file:../../utils/symlink-binary",
+    "@pubbo/symlink-dependencies": "file:../../utils/symlink-dependencies",
+    "@pubbo/validation-error": "file:../../core/validation-error",
+    "dedent": "^0.7.0",
+    "get-port": "^4.2.0",
+    "multimatch": "^3.0.0",
+    "npm-package-arg": "^6.1.0",
+    "npmlog": "^4.1.2",
+    "p-finally": "^1.0.0",
+    "p-map": "^2.1.0",
+    "p-map-series": "^1.0.0",
+    "p-waterfall": "^1.0.0",
+    "read-package-tree": "^5.1.6",
+    "semver": "^6.2.0"
+  }
+}

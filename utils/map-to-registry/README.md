@@ -1,0 +1,21 @@
+# `@pubbo/map-to-registry`
+
+> Produce registry uri and auth of package name from npm config
+
+## Usage
+
+This is an extraction of an internal npm [utility](https://github.com/npm/npm/blob/f644018/lib/utils/map-to-registry.js). Caveat emptor.
+
+```js
+"use strict";
+
+const mapToRegistry = require("@pubbo/map-to-registry");
+const npmConf = require("@pubbo/npm-conf");
+
+const config = npmConf();
+const { uri, auth } = mapToRegistry("my-package", config);
+```
+
+`uri` and `auth` are suitable for arguments to [npm-registry-client](https://www.npmjs.com/package/npm-registry-client) instance method parameters.
+
+Install [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI.
