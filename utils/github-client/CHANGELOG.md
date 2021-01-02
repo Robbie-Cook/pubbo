@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.0.0](https://github.com/lerna/lerna/compare/v3.21.0...v0.0.0) (2020-05-24)
+# [0.0.0](https://github.com/lerna/lerna/compare/v0.0.0...v0.0.0) (2020-05-24)
 
 
 ### Bug Fixes

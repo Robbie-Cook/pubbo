@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/create-symlink",
-  "version": "3.16.2",
+  "version": "0.0.0",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",

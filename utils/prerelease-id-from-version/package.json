@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/prerelease-id-from-version",
-  "version": "3.16.0",
+  "version": "0.0.0",
   "description": "Get the prerelease ID from a version string",
   "keywords": [
     "lerna",

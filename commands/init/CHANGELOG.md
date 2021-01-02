@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [3.21.0](https://github.com/lerna/lerna/compare/v3.20.2...v3.21.0) (2020-05-13)
+# [0.0.0](https://github.com/lerna/lerna/compare/v3.20.2...v0.0.0) (2020-05-13)
 
 **Note:** Version bump only for package @pubbo/init
 

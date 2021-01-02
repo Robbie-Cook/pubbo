@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/symlink-dependencies",
-  "version": "3.17.0",
+  "version": "0.0.0",
   "description": "Lerna's internal symlinking tool",
   "keywords": [
     "lerna",

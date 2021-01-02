@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/log-packed",
-  "version": "3.16.0",
+  "version": "0.0.0",
   "description": "Log the result of npm pack --json",
   "keywords": [
     "lerna",

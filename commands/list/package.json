@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/list",
-  "version": "3.21.0",
+  "version": "0.0.0",
   "description": "List local packages",
   "keywords": [
     "lerna",

@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.0.0](https://github.com/lerna/lerna/compare/v3.21.0...v0.0.0) (2020-05-24)
+# [0.0.0](https://github.com/lerna/lerna/compare/v0.0.0...v0.0.0) (2020-05-24)
 
 
 ### Bug Fixes
@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [3.21.0](https://github.com/lerna/lerna/compare/v3.20.2...v3.21.0) (2020-05-13)
+# [0.0.0](https://github.com/lerna/lerna/compare/v3.20.2...v0.0.0) (2020-05-13)
 
 
 ### Features
