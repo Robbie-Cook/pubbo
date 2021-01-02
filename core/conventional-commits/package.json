@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/conventional-commits",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Lerna's internal interface to conventional-changelog and friends",
   "keywords": [
     "lerna",

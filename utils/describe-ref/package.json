@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/describe-ref",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse git describe output for lerna-related tags",
   "keywords": [
     "lerna",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.1 (2021-01-02)
+
+**Note:** Version bump only for package @pubbo/gitlab-client
+
+
+
+
+
 # [3.15.0](https://gitlab.com/lerna/lerna/compare/v3.14.2...v3.15.0) (2019-06-09)
 
 

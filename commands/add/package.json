@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/add",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Add a dependency to matched packages",
   "keywords": [
     "lerna",

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/check-working-tree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
     "lerna",

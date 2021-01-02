@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/run",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
     "lerna",

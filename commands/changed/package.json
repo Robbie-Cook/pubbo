@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/changed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
     "lerna",

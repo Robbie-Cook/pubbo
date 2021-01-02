@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/bootstrap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Link local packages together and install remaining package dependencies",
   "keywords": [
     "lerna",

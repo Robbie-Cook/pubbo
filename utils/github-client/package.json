@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/github-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -31,9 +31,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../../core/child-process",
     "@octokit/plugin-enterprise-rest": "^6.0.1",
     "@octokit/rest": "^16.28.4",
+    "@pubbo/child-process": "file:../../core/child-process",
     "git-url-parse": "^11.1.2",
     "npmlog": "^4.1.2"
   }
