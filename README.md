@@ -16,6 +16,8 @@ However, recently, some critical problems have made it difficult to use. These i
 
 * Lerna commands being documented patchily at best.
 
+* Tagging builds *before* incrementing the versioning in the `package.json`s
+
 This project aims to alleviate some of the pain.
 
 
