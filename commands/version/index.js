@@ -253,8 +253,7 @@ class VersionCommand extends Command {
 
   async execute() {
     // Check whether working tree is clean
-    const result = await checkWorkingTree(this.execOpts);
-    console.log(result);
+    await checkWorkingTree(this.execOpts);
 
     const tasks = [() => this.updatePackageVersions()];
 
