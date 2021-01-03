@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/import",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Import a package into the monorepo with commit history",
   "keywords": [
     "lerna",
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.3",
-    "@pubbo/command": "0.0.3",
-    "@pubbo/prompt": "0.0.3",
-    "@pubbo/pulse-till-done": "0.0.3",
-    "@pubbo/validation-error": "0.0.3",
+    "@pubbo/child-process": "0.0.4",
+    "@pubbo/command": "0.0.4",
+    "@pubbo/prompt": "0.0.4",
+    "@pubbo/pulse-till-done": "0.0.4",
+    "@pubbo/validation-error": "0.0.4",
     "dedent": "^0.7.0",
     "fs-extra": "^8.1.0",
     "p-map-series": "^1.0.0"

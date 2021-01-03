@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/listable",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared logic for listing package information",
   "keywords": [
     "lerna",
@@ -29,7 +29,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/query-graph": "0.0.3",
+    "@pubbo/query-graph": "0.0.4",
     "chalk": "^2.3.1",
     "columnify": "^1.5.4"
   },

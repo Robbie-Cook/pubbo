@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/clean",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Remove the node_modules directory from all packages",
   "keywords": [
     "lerna",
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "0.0.3",
-    "@pubbo/filter-options": "0.0.3",
-    "@pubbo/prompt": "0.0.3",
-    "@pubbo/pulse-till-done": "0.0.3",
-    "@pubbo/rimraf-dir": "0.0.3",
+    "@pubbo/command": "0.0.4",
+    "@pubbo/filter-options": "0.0.4",
+    "@pubbo/prompt": "0.0.4",
+    "@pubbo/pulse-till-done": "0.0.4",
+    "@pubbo/rimraf-dir": "0.0.4",
     "p-map": "^2.1.0",
     "p-map-series": "^1.0.0",
     "p-waterfall": "^1.0.0"

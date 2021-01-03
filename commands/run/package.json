@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/run",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
     "lerna",
@@ -32,14 +32,14 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "0.0.3",
-    "@pubbo/filter-options": "0.0.3",
-    "@pubbo/npm-run-script": "0.0.3",
-    "@pubbo/output": "0.0.3",
-    "@pubbo/profiler": "0.0.3",
-    "@pubbo/run-topologically": "0.0.3",
-    "@pubbo/timer": "0.0.3",
-    "@pubbo/validation-error": "0.0.3",
+    "@pubbo/command": "0.0.4",
+    "@pubbo/filter-options": "0.0.4",
+    "@pubbo/npm-run-script": "0.0.4",
+    "@pubbo/output": "0.0.4",
+    "@pubbo/profiler": "0.0.4",
+    "@pubbo/run-topologically": "0.0.4",
+    "@pubbo/timer": "0.0.4",
+    "@pubbo/validation-error": "0.0.4",
     "p-map": "^2.1.0"
   },
   "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"

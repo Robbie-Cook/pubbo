@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/symlink-dependencies",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lerna's internal symlinking tool",
   "keywords": [
     "lerna",
@@ -31,9 +31,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/create-symlink": "0.0.3",
-    "@pubbo/resolve-symlink": "0.0.3",
-    "@pubbo/symlink-binary": "0.0.3",
+    "@pubbo/create-symlink": "0.0.4",
+    "@pubbo/resolve-symlink": "0.0.4",
+    "@pubbo/symlink-binary": "0.0.4",
     "fs-extra": "^8.1.0",
     "p-finally": "^1.0.0",
     "p-map": "^2.1.0",

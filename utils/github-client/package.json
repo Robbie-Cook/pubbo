@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/github-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -33,7 +33,7 @@
   "dependencies": {
     "@octokit/plugin-enterprise-rest": "^6.0.1",
     "@octokit/rest": "^16.28.4",
-    "@pubbo/child-process": "0.0.3",
+    "@pubbo/child-process": "0.0.4",
     "git-url-parse": "^11.1.2",
     "npmlog": "^4.1.2"
   },

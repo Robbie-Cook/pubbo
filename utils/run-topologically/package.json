@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/run-topologically",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/query-graph": "0.0.3",
+    "@pubbo/query-graph": "0.0.4",
     "figgy-pudding": "^3.5.1",
     "p-queue": "^4.0.0"
   },

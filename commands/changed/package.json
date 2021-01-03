@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/changed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
     "lerna",
@@ -32,10 +32,10 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/collect-updates": "0.0.3",
-    "@pubbo/command": "0.0.3",
-    "@pubbo/listable": "0.0.3",
-    "@pubbo/output": "0.0.3"
+    "@pubbo/collect-updates": "0.0.4",
+    "@pubbo/command": "0.0.4",
+    "@pubbo/listable": "0.0.4",
+    "@pubbo/output": "0.0.4"
   },
   "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

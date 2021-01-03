@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/gitlab-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
