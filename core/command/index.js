@@ -21,7 +21,7 @@ const DEFAULT_CONCURRENCY = os.cpus().length;
 class Command {
   constructor(_argv) {
     log.pause();
-    log.heading = "lerna";
+    log.heading = "pubbo";
 
     const argv = cloneDeep(_argv);
     log.silly("argv", argv);

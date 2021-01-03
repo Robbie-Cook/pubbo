@@ -5,7 +5,7 @@ const log = require("npmlog");
 const yargs = require("yargs/yargs");
 const globalOptions = require("@pubbo/global-options");
 
-module.exports = lernaCLI;
+module.exports = pubboCLI;
 
 /**
  * A factory that returns a yargs() instance configured with everything except commands.
@@ -14,7 +14,7 @@ module.exports = lernaCLI;
  * @param {Array = []} argv
  * @param {String = process.cwd()} cwd
  */
-function lernaCLI(argv, cwd) {
+function pubboCLI(argv, cwd) {
   const cli = yargs(argv, cwd);
 
   return globalOptions(cli)
@@ -30,10 +30,10 @@ function lernaCLI(argv, cwd) {
       if (actual.name !== "ValidationError" && !actual.pkg) {
         // the recommendCommands() message is too terse
         if (/Did you mean/.test(actual.message)) {
-          log.error("lerna", `Unknown command "${cli.parsed.argv._[0]}"`);
+          log.error("pubbo", `Unknown command "${cli.parsed.argv._[0]}"`);
         }
 
-        log.error("lerna", actual.message);
+        log.error("pubbo", actual.message);
       }
 
       // exit non-zero so the CLI can be usefully chained
