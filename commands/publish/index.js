@@ -224,9 +224,11 @@ class PublishCommand extends Command {
 
     chain = chain.then(() => this.resolveLocalDependencyLinks());
     chain = chain.then(() => this.annotateGitHead());
-    chain = chain.then(() => this.serializeChanges());
-    chain = chain.then(() => this.packUpdated());
-    chain = chain.then(() => this.publishPacked());
+    if (!this.options.dryRun) {
+      chain = chain.then(() => this.serializeChanges());
+      chain = chain.then(() => this.packUpdated());
+      chain = chain.then(() => this.publishPacked());
+    }
 
     // Only after everything is done, *then* tag version and update them
     chain = chain.then(() => versionCommand(this.argv).then(() => false));

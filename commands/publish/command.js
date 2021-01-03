@@ -24,6 +24,11 @@ exports.builder = yargs => {
       requiresArg: true,
       defaultDescription: "alpha",
     },
+    dryRun: {
+      describe: "Does everything *but* publish to NPM",
+      type: "boolean",
+      requiresArg: true,
+    },
     contents: {
       describe: "Subdirectory to publish. Must apply to ALL packages.",
       type: "string",
