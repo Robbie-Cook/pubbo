@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/version",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bump version of packages changed since the last release",
   "keywords": [
     "lerna",
@@ -61,5 +61,5 @@
     "temp-write": "^3.4.0",
     "write-json-file": "^3.2.0"
   },
-  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
+  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
 }

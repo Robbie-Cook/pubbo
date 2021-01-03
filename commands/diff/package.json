@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/diff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Diff all packages or a single package since the last release",
   "keywords": [
     "lerna",
@@ -38,5 +38,5 @@
     "@pubbo/validation-error": "0.0.11",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
+  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
 }

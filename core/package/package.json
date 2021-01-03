@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lerna's internal representation of a package",
   "keywords": [
     "lerna",
@@ -35,5 +35,5 @@
     "npm-package-arg": "^6.1.0",
     "write-pkg": "^3.1.0"
   },
-  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
+  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
 }

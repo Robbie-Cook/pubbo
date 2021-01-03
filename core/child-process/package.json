@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/child-process",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lerna's internal child_process wrapper",
   "keywords": [
     "lerna",
@@ -35,5 +35,5 @@
     "execa": "^1.0.0",
     "strong-log-transformer": "^2.0.0"
   },
-  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
+  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
 }

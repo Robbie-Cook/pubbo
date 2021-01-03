@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/clean",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remove the node_modules directory from all packages",
   "keywords": [
     "lerna",
@@ -41,5 +41,5 @@
     "p-map-series": "^1.0.0",
     "p-waterfall": "^1.0.0"
   },
-  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
+  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
 }
