@@ -231,7 +231,8 @@ class PublishCommand extends Command {
     }
 
     // Only after everything is done, *then* tag version and update them
-    chain = chain.then(() => versionCommand({ options: this.options, composed: false }).then(() => false));
+    const nonComposedOptions = { ...this.options, composed: "" };
+    chain = chain.then(() => versionCommand({ options: nonComposedOptions, composed: false }).then(() => false));
 
     if (this.gitReset) {
       chain = chain.then(() => this.resetChanges());
