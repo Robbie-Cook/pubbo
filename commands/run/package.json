@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/run",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
     "lerna",
@@ -42,5 +42,5 @@
     "@pubbo/validation-error": "0.0.11",
     "p-map": "^2.1.0"
   },
-  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
+  "gitHead": "658b3f66d7546c4a766a354a87fee4664a00896c"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/add",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Add a dependency to matched packages",
   "keywords": [
     "lerna",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@evocateur/pacote": "^9.6.3",
-    "@pubbo/bootstrap": "0.2.0",
+    "@pubbo/bootstrap": "0.2.2",
     "@pubbo/command": "0.0.11",
     "@pubbo/filter-options": "0.0.11",
     "@pubbo/npm-conf": "0.0.11",
@@ -44,5 +44,5 @@
     "p-map": "^2.1.0",
     "semver": "^6.2.0"
   },
-  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
+  "gitHead": "658b3f66d7546c4a766a354a87fee4664a00896c"
 }

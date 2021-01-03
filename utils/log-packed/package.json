@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/log-packed",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Log the result of npm pack --json",
   "keywords": [
     "lerna",
@@ -35,5 +35,5 @@
     "has-unicode": "^2.0.1",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
+  "gitHead": "658b3f66d7546c4a766a354a87fee4664a00896c"
 }

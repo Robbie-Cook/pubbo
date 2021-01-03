@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/npm-dist-tag",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -33,10 +33,10 @@
   },
   "dependencies": {
     "@evocateur/npm-registry-fetch": "^4.0.0",
-    "@pubbo/otplease": "0.2.0",
+    "@pubbo/otplease": "0.2.2",
     "figgy-pudding": "^3.5.1",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
+  "gitHead": "658b3f66d7546c4a766a354a87fee4664a00896c"
 }

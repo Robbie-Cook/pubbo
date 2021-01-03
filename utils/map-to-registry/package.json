@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/map-to-registry",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Produce registry uri and auth of package name from npm config",
   "keywords": [
     "lerna",
@@ -40,5 +40,5 @@
     "npm-package-arg": "^6.0.0",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
+  "gitHead": "658b3f66d7546c4a766a354a87fee4664a00896c"
 }
