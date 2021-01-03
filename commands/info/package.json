@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/info",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Prints local environnment information",
   "keywords": [
     "lerna",
@@ -36,5 +36,5 @@
     "@pubbo/output": "0.0.11",
     "envinfo": "^7.3.1"
   },
-  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
+  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
 }

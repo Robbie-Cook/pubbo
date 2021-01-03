@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/lerna/lerna/compare/v0.0.5...v0.2.0) (2021-01-03)
+
+
+### Features
+
+* Added dryRun option to 'publish' ([1a77a22](https://github.com/lerna/lerna/commit/1a77a229cb2f0a8f16c1c696e9f5636d52815cc2))
+
+
+
+
+
 ## [0.1.1](https://github.com/lerna/lerna/compare/v0.0.5...v0.1.1) (2021-01-03)
 
 

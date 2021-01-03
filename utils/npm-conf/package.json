@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/npm-conf",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Vendored npm-conf with updates",
   "keywords": [
     "lerna",
@@ -39,5 +39,5 @@
     "config-chain": "^1.1.11",
     "pify": "^4.0.1"
   },
-  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
+  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
 }

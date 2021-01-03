@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/get-packed",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Read contents of package tarball created by npm pack",
   "keywords": [
     "lerna",
@@ -31,5 +31,5 @@
     "ssri": "^6.0.1",
     "tar": "^4.4.8"
   },
-  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
+  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
 }

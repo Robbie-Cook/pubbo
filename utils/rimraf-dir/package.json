@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/rimraf-dir",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Run rimraf on a directory in a subprocess to hack around slowness",
   "keywords": [
     "lerna",
@@ -31,10 +31,10 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.1.1",
+    "@pubbo/child-process": "0.2.0",
     "npmlog": "^4.1.2",
     "path-exists": "^3.0.0",
     "rimraf": "^2.6.2"
   },
-  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
+  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
 }

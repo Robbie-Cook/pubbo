@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/write-log-file",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "What lerna uses to dump logs",
   "keywords": [
     "lerna",
@@ -34,5 +34,5 @@
     "npmlog": "^4.1.2",
     "write-file-atomic": "^2.3.0"
   },
-  "gitHead": "953cb23b8d68eed427ef0da1722d95854d25739f"
+  "gitHead": "e16785349e6a86f4cbc55c68bbd3c9338df22491"
 }
