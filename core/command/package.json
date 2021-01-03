@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/command",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lerna's internal base class for commands",
   "keywords": [
     "lerna",
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.4",
-    "@pubbo/package-graph": "0.0.4",
-    "@pubbo/project": "0.0.4",
-    "@pubbo/validation-error": "0.0.4",
-    "@pubbo/write-log-file": "0.0.4",
+    "@pubbo/child-process": "0.0.5",
+    "@pubbo/package-graph": "0.0.5",
+    "@pubbo/project": "0.0.5",
+    "@pubbo/validation-error": "0.0.5",
+    "@pubbo/write-log-file": "0.0.5",
     "clone-deep": "^4.0.1",
     "dedent": "^0.7.0",
     "execa": "^1.0.0",

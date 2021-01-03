@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/has-npm-version",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test if the current version of npm satisfies a given semver range",
   "keywords": [
     "lerna",
@@ -28,7 +28,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.4",
+    "@pubbo/child-process": "0.0.5",
     "semver": "^6.2.0"
   },
   "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"

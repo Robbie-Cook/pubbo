@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/create",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Create a new lerna-managed package",
   "keywords": [
     "lerna",
@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@evocateur/pacote": "^9.6.3",
-    "@pubbo/child-process": "0.0.4",
-    "@pubbo/command": "0.0.4",
-    "@pubbo/npm-conf": "0.0.4",
-    "@pubbo/validation-error": "0.0.4",
+    "@pubbo/child-process": "0.0.5",
+    "@pubbo/command": "0.0.5",
+    "@pubbo/npm-conf": "0.0.5",
+    "@pubbo/validation-error": "0.0.5",
     "camelcase": "^5.0.0",
     "dedent": "^0.7.0",
     "fs-extra": "^8.1.0",

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/list",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "List local packages",
   "keywords": [
     "lerna",
@@ -32,10 +32,10 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "0.0.4",
-    "@pubbo/filter-options": "0.0.4",
-    "@pubbo/listable": "0.0.4",
-    "@pubbo/output": "0.0.4"
+    "@pubbo/command": "0.0.5",
+    "@pubbo/filter-options": "0.0.5",
+    "@pubbo/listable": "0.0.5",
+    "@pubbo/output": "0.0.5"
   },
   "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/package-graph",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lerna's internal representation of a package graph",
   "keywords": [
     "lerna",
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/prerelease-id-from-version": "0.0.4",
-    "@pubbo/validation-error": "0.0.4",
+    "@pubbo/prerelease-id-from-version": "0.0.5",
+    "@pubbo/validation-error": "0.0.5",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "semver": "^6.2.0"

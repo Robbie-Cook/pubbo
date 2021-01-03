@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/global-options",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Global options applicable to _every_ lerna sub-command",
   "keywords": [
     "lerna",

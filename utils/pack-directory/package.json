@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/pack-directory",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Pack a directory into an npm package tarball",
   "keywords": [
     "lerna",
@@ -27,9 +27,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/get-packed": "0.0.4",
-    "@pubbo/package": "0.0.4",
-    "@pubbo/run-lifecycle": "0.0.4",
+    "@pubbo/get-packed": "0.0.5",
+    "@pubbo/package": "0.0.5",
+    "@pubbo/run-lifecycle": "0.0.5",
     "figgy-pudding": "^3.5.1",
     "npm-packlist": "^1.4.4",
     "npmlog": "^4.1.2",

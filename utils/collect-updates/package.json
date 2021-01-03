@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/collect-updates",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.4",
-    "@pubbo/describe-ref": "0.0.4",
+    "@pubbo/child-process": "0.0.5",
+    "@pubbo/describe-ref": "0.0.5",
     "minimatch": "^3.0.4",
     "npmlog": "^4.1.2",
     "slash": "^2.0.0"

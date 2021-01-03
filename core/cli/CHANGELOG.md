@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/lerna/lerna/compare/v0.0.4...v0.0.5) (2021-01-03)
+
+
+### Bug Fixes
+
+* Getting lock files ([340b990](https://github.com/lerna/lerna/commit/340b99042a4d619a05cd6e831ab6ef4ed48583ed))
+* Renaming some things to `pubbo` ([c8cddc4](https://github.com/lerna/lerna/commit/c8cddc469c5f2114b3d1c490d53d9929579f7d38))
+
+
+
+
+
 ## [0.0.4](https://github.com/lerna/lerna/compare/v0.0.3...v0.0.4) (2021-01-03)
 
 **Note:** Version bump only for package @pubbo/cli

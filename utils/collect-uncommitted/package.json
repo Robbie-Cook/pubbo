@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/collect-uncommitted",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Collect uncommitted changes to working tree for display in error messages",
   "keywords": [
     "lerna",
@@ -33,7 +33,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.4",
+    "@pubbo/child-process": "0.0.5",
     "chalk": "^2.3.1",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/otplease",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Prompt for OTP when wrapped Promise fails",
   "keywords": [
     "lerna",
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/prompt": "0.0.4",
+    "@pubbo/prompt": "0.0.5",
     "figgy-pudding": "^3.5.1"
   },
   "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/package",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lerna's internal representation of a package",
   "keywords": [
     "lerna",

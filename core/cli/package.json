@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lerna's CLI",
   "keywords": [
     "lerna",
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/global-options": "0.0.4",
+    "@pubbo/global-options": "0.0.5",
     "dedent": "^0.7.0",
     "npmlog": "^4.1.2",
     "yargs": "^14.2.2"
