@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/exec",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "Execute an arbitrary command in each package",
   "keywords": [
     "lerna",
@@ -40,5 +40,5 @@
     "@pubbo/validation-error": "0.0.11",
     "p-map": "^2.1.0"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }

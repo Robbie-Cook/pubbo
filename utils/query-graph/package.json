@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/query-graph",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/package-graph": "0.0.16",
+    "@pubbo/package-graph": "0.1.0",
     "figgy-pudding": "^3.5.1"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }

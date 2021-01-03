@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/filter-packages",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -31,9 +31,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/validation-error": "0.0.16",
+    "@pubbo/validation-error": "0.1.0",
     "multimatch": "^3.0.0",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }

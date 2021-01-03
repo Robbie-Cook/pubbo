@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/init",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "Create a new Lerna repo or upgrade an existing repo to the current version of Lerna",
   "keywords": [
     "lerna",
@@ -38,5 +38,5 @@
     "p-map": "^2.1.0",
     "write-json-file": "^3.2.0"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/conventional-commits",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "Lerna's internal interface to conventional-changelog and friends",
   "keywords": [
     "lerna",
@@ -32,7 +32,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/validation-error": "0.0.16",
+    "@pubbo/validation-error": "0.1.0",
     "conventional-changelog-angular": "^5.0.3",
     "conventional-changelog-core": "^3.1.6",
     "conventional-recommended-bump": "^5.0.0",
@@ -44,5 +44,5 @@
     "pify": "^4.0.1",
     "semver": "^6.2.0"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/npm-install",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -31,13 +31,13 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.16",
-    "@pubbo/get-npm-exec-opts": "0.0.16",
+    "@pubbo/child-process": "0.1.0",
+    "@pubbo/get-npm-exec-opts": "0.1.0",
     "fs-extra": "^8.1.0",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "signal-exit": "^3.0.2",
     "write-pkg": "^3.1.0"
   },
-  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
+  "gitHead": "d7fc17ff5a2e0abb612c1a0f3ed8e12a792988a0"
 }
