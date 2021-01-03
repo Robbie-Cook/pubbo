@@ -1,5 +1,5 @@
 {
-  "name": "pubbo-monorepo",
+  "name": "pubbo",
   "version": "3.0.0-monorepo",
   "description": "pubbo dog-fooding pubbo",
   "private": true,
