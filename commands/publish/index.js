@@ -231,7 +231,7 @@ class PublishCommand extends Command {
     }
 
     // Only after everything is done, *then* tag version and update them
-    chain = chain.then(() => versionCommand({ ...this.argv, composed: false }).then(() => false));
+    // chain = chain.then(() => versionCommand({ ...this.argv, composed: false }).then(() => false));
 
     if (this.gitReset) {
       chain = chain.then(() => this.resetChanges());
