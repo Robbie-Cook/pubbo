@@ -1,6 +1,25 @@
-# pubbo
+# [alpha] pubbo
 
-> A fork of [pubbo](https://github.com/pubbo/pubbo).
+> A fork of [lerna](https://github.com/lerna/lerna).
+
+## Context
+
+### Why?
+
+Lerna is a great monorepo tool which was used almost ubiquitously.
+
+However, recently, some critical problems have made it difficult to use. These include:
+
+* Tagging builds and considering builds as published when they fail hooks: https://github.com/lerna/lerna/issues/2018#issuecomment-753453525
+
+* Dropping lerna updates altogether, even though it is widely loved: https://github.com/lerna/lerna/issues/2716#issuecomment-744599179
+
+* Lerna commands being documented patchily at best.
+
+This project aims to alleviate some of the pain.
+
+
+## Contents
 
 </p>
 
