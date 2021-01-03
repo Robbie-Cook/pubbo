@@ -33,5 +33,6 @@
   "dependencies": {
     "npmlog": "^4.1.2",
     "write-file-atomic": "^2.3.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

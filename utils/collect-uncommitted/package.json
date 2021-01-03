@@ -33,9 +33,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/child-process": "0.0.3",
     "chalk": "^2.3.1",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

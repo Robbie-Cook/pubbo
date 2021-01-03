@@ -28,7 +28,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/child-process": "0.0.3",
     "semver": "^6.2.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

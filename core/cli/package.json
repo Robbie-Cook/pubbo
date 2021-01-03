@@ -31,9 +31,10 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/global-options": "file:../global-options",
+    "@pubbo/global-options": "0.0.3",
     "dedent": "^0.7.0",
     "npmlog": "^4.1.2",
     "yargs": "^14.2.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

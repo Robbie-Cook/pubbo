@@ -32,7 +32,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/validation-error": "file:../validation-error",
+    "@pubbo/validation-error": "0.0.3",
     "conventional-changelog-angular": "^5.0.3",
     "conventional-changelog-core": "^3.1.6",
     "conventional-recommended-bump": "^5.0.0",
@@ -43,5 +43,6 @@
     "npmlog": "^4.1.2",
     "pify": "^4.0.1",
     "semver": "^6.2.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

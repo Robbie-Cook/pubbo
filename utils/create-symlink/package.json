@@ -34,5 +34,6 @@
     "@zkochan/cmd-shim": "^3.1.0",
     "fs-extra": "^8.1.0",
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

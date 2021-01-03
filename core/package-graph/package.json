@@ -32,10 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/prerelease-id-from-version": "file:../../utils/prerelease-id-from-version",
-    "@pubbo/validation-error": "file:../validation-error",
+    "@pubbo/prerelease-id-from-version": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "semver": "^6.2.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

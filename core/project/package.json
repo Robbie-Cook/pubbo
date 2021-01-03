@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/package": "file:../package",
-    "@pubbo/validation-error": "file:../validation-error",
+    "@pubbo/package": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
     "cosmiconfig": "^5.1.0",
     "dedent": "^0.7.0",
     "dot-prop": "^4.2.0",
@@ -44,5 +44,6 @@
     "p-map": "^2.1.0",
     "resolve-from": "^4.0.0",
     "write-json-file": "^3.2.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

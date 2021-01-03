@@ -29,8 +29,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/query-graph": "file:../query-graph",
+    "@pubbo/query-graph": "0.0.3",
     "chalk": "^2.3.1",
     "columnify": "^1.5.4"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

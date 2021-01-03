@@ -30,8 +30,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/collect-uncommitted": "file:../collect-uncommitted",
-    "@pubbo/describe-ref": "file:../describe-ref",
-    "@pubbo/validation-error": "file:../../core/validation-error"
-  }
+    "@pubbo/collect-uncommitted": "0.0.3",
+    "@pubbo/describe-ref": "0.0.3",
+    "@pubbo/validation-error": "0.0.3"
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

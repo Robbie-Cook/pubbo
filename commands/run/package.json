@@ -32,14 +32,15 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "file:../../core/command",
-    "@pubbo/filter-options": "file:../../core/filter-options",
-    "@pubbo/npm-run-script": "file:../../utils/npm-run-script",
-    "@pubbo/output": "file:../../utils/output",
-    "@pubbo/profiler": "file:../../utils/profiler",
-    "@pubbo/run-topologically": "file:../../utils/run-topologically",
-    "@pubbo/timer": "file:../../utils/timer",
-    "@pubbo/validation-error": "file:../../core/validation-error",
+    "@pubbo/command": "0.0.3",
+    "@pubbo/filter-options": "0.0.3",
+    "@pubbo/npm-run-script": "0.0.3",
+    "@pubbo/output": "0.0.3",
+    "@pubbo/profiler": "0.0.3",
+    "@pubbo/run-topologically": "0.0.3",
+    "@pubbo/timer": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
     "p-map": "^2.1.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

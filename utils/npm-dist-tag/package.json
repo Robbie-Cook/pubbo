@@ -33,9 +33,10 @@
   },
   "dependencies": {
     "@evocateur/npm-registry-fetch": "^4.0.0",
-    "@pubbo/otplease": "file:../../core/otplease",
+    "@pubbo/otplease": "0.0.3",
     "figgy-pudding": "^3.5.1",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

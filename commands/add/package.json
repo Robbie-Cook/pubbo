@@ -34,14 +34,15 @@
   },
   "dependencies": {
     "@evocateur/pacote": "^9.6.3",
-    "@pubbo/bootstrap": "file:../bootstrap",
-    "@pubbo/command": "file:../../core/command",
-    "@pubbo/filter-options": "file:../../core/filter-options",
-    "@pubbo/npm-conf": "file:../../utils/npm-conf",
-    "@pubbo/validation-error": "file:../../core/validation-error",
+    "@pubbo/bootstrap": "0.0.3",
+    "@pubbo/command": "0.0.3",
+    "@pubbo/filter-options": "0.0.3",
+    "@pubbo/npm-conf": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
     "dedent": "^0.7.0",
     "npm-package-arg": "^6.1.0",
     "p-map": "^2.1.0",
     "semver": "^6.2.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

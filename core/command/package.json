@@ -32,15 +32,16 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../child-process",
-    "@pubbo/package-graph": "file:../package-graph",
-    "@pubbo/project": "file:../project",
-    "@pubbo/validation-error": "file:../validation-error",
-    "@pubbo/write-log-file": "file:../../utils/write-log-file",
+    "@pubbo/child-process": "0.0.3",
+    "@pubbo/package-graph": "0.0.3",
+    "@pubbo/project": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
+    "@pubbo/write-log-file": "0.0.3",
     "clone-deep": "^4.0.1",
     "dedent": "^0.7.0",
     "execa": "^1.0.0",
     "is-ci": "^2.0.0",
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

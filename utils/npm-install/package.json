@@ -31,12 +31,13 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../../core/child-process",
-    "@pubbo/get-npm-exec-opts": "file:../get-npm-exec-opts",
+    "@pubbo/child-process": "0.0.3",
+    "@pubbo/get-npm-exec-opts": "0.0.3",
     "fs-extra": "^8.1.0",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "signal-exit": "^3.0.2",
     "write-pkg": "^3.1.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

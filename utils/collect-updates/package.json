@@ -32,10 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "file:../../core/child-process",
-    "@pubbo/describe-ref": "file:../describe-ref",
+    "@pubbo/child-process": "0.0.3",
+    "@pubbo/describe-ref": "0.0.3",
     "minimatch": "^3.0.4",
     "npmlog": "^4.1.2",
     "slash": "^2.0.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

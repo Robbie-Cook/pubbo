@@ -27,13 +27,14 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/get-packed": "file:../get-packed",
-    "@pubbo/package": "file:../../core/package",
-    "@pubbo/run-lifecycle": "file:../run-lifecycle",
+    "@pubbo/get-packed": "0.0.3",
+    "@pubbo/package": "0.0.3",
+    "@pubbo/run-lifecycle": "0.0.3",
     "figgy-pudding": "^3.5.1",
     "npm-packlist": "^1.4.4",
     "npmlog": "^4.1.2",
     "tar": "^4.4.10",
     "temp-write": "^3.4.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

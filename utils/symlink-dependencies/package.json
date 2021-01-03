@@ -31,12 +31,13 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/create-symlink": "file:../create-symlink",
-    "@pubbo/resolve-symlink": "file:../resolve-symlink",
-    "@pubbo/symlink-binary": "file:../symlink-binary",
+    "@pubbo/create-symlink": "0.0.3",
+    "@pubbo/resolve-symlink": "0.0.3",
+    "@pubbo/symlink-binary": "0.0.3",
     "fs-extra": "^8.1.0",
     "p-finally": "^1.0.0",
     "p-map": "^2.1.0",
     "p-map-series": "^1.0.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

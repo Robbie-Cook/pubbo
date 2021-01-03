@@ -32,10 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/collect-updates": "file:../../utils/collect-updates",
-    "@pubbo/filter-packages": "file:../../utils/filter-packages",
+    "@pubbo/collect-updates": "0.0.3",
+    "@pubbo/filter-packages": "0.0.3",
     "dedent": "^0.7.0",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }

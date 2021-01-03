@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@evocateur/pacote": "^9.6.3",
-    "@pubbo/child-process": "file:../../core/child-process",
-    "@pubbo/command": "file:../../core/command",
-    "@pubbo/npm-conf": "file:../../utils/npm-conf",
-    "@pubbo/validation-error": "file:../../core/validation-error",
+    "@pubbo/child-process": "0.0.3",
+    "@pubbo/command": "0.0.3",
+    "@pubbo/npm-conf": "0.0.3",
+    "@pubbo/validation-error": "0.0.3",
     "camelcase": "^5.0.0",
     "dedent": "^0.7.0",
     "fs-extra": "^8.1.0",
@@ -51,5 +51,6 @@
     "validate-npm-package-license": "^3.0.3",
     "validate-npm-package-name": "^3.0.0",
     "whatwg-url": "^7.0.0"
-  }
+  },
+  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
 }
