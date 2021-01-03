@@ -1,6 +1,6 @@
 {
   "name": "pubbo",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
     "lerna",
@@ -22,7 +22,7 @@
     "cli.js"
   ],
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "repository": {
     "type": "git",
@@ -33,24 +33,24 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/add": "0.0.5",
-    "@pubbo/bootstrap": "0.0.5",
-    "@pubbo/changed": "0.0.5",
-    "@pubbo/clean": "0.0.5",
-    "@pubbo/cli": "0.0.5",
-    "@pubbo/create": "0.0.5",
-    "@pubbo/diff": "0.0.5",
-    "@pubbo/exec": "0.0.5",
-    "@pubbo/import": "0.0.5",
-    "@pubbo/info": "0.0.5",
-    "@pubbo/init": "0.0.5",
-    "@pubbo/link": "0.0.5",
-    "@pubbo/list": "0.0.5",
-    "@pubbo/publish": "0.0.5",
-    "@pubbo/run": "0.0.5",
-    "@pubbo/version": "0.0.5",
+    "@pubbo/add": "0.0.16",
+    "@pubbo/bootstrap": "0.0.16",
+    "@pubbo/changed": "0.0.16",
+    "@pubbo/clean": "0.0.16",
+    "@pubbo/cli": "0.0.11",
+    "@pubbo/create": "0.0.16",
+    "@pubbo/diff": "0.0.16",
+    "@pubbo/exec": "0.0.16",
+    "@pubbo/import": "0.0.16",
+    "@pubbo/info": "0.0.16",
+    "@pubbo/init": "0.0.16",
+    "@pubbo/link": "0.0.16",
+    "@pubbo/list": "0.0.16",
+    "@pubbo/publish": "0.0.16",
+    "@pubbo/run": "0.0.16",
+    "@pubbo/version": "0.0.16",
     "import-local": "^2.0.0",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

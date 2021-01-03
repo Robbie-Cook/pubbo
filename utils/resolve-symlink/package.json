@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/resolve-symlink",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -17,7 +17,7 @@
   ],
   "main": "resolve-symlink.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -35,5 +35,5 @@
     "npmlog": "^4.1.2",
     "read-cmd-shim": "^1.0.1"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

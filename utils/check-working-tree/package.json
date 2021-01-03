@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/check-working-tree",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
     "lerna",
@@ -16,7 +16,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -30,9 +30,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/collect-uncommitted": "0.0.5",
-    "@pubbo/describe-ref": "0.0.5",
-    "@pubbo/validation-error": "0.0.5"
+    "@pubbo/collect-uncommitted": "0.0.16",
+    "@pubbo/describe-ref": "0.0.16",
+    "@pubbo/validation-error": "0.0.16"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

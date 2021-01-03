@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/project",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Lerna project configuration",
   "keywords": [
     "lerna",
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/package": "0.0.5",
-    "@pubbo/validation-error": "0.0.5",
+    "@pubbo/package": "0.0.16",
+    "@pubbo/validation-error": "0.0.16",
     "cosmiconfig": "^5.1.0",
     "dedent": "^0.7.0",
     "dot-prop": "^4.2.0",
@@ -45,5 +45,5 @@
     "resolve-from": "^4.0.0",
     "write-json-file": "^3.2.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

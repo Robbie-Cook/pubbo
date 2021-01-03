@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/create",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Create a new lerna-managed package",
   "keywords": [
     "lerna",
@@ -19,7 +19,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@evocateur/pacote": "^9.6.3",
-    "@pubbo/child-process": "0.0.5",
-    "@pubbo/command": "0.0.5",
-    "@pubbo/npm-conf": "0.0.5",
-    "@pubbo/validation-error": "0.0.5",
+    "@pubbo/child-process": "0.0.11",
+    "@pubbo/command": "0.0.11",
+    "@pubbo/npm-conf": "0.0.11",
+    "@pubbo/validation-error": "0.0.11",
     "camelcase": "^5.0.0",
     "dedent": "^0.7.0",
     "fs-extra": "^8.1.0",
@@ -52,5 +52,5 @@
     "validate-npm-package-name": "^3.0.0",
     "whatwg-url": "^7.0.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

@@ -9,7 +9,7 @@ module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;
 module.exports.throwIfReleased = throwIfReleased;
 module.exports.throwIfUncommitted = mkThrowIfUncommitted();
 
-function checkWorkingTree({ cwd } = {}) {
+async function checkWorkingTree({ cwd } = {}) {
   let chain = Promise.resolve();
 
   chain = chain.then(() => describeRef({ cwd }));

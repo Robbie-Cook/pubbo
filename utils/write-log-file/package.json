@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/write-log-file",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "What lerna uses to dump logs",
   "keywords": [
     "lerna",
@@ -17,7 +17,7 @@
   ],
   "main": "write-log-file.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -34,5 +34,5 @@
     "npmlog": "^4.1.2",
     "write-file-atomic": "^2.3.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

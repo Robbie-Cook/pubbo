@@ -248,20 +248,14 @@ class VersionCommand extends Command {
       () => this.confirmVersions(),
     ];
 
-    // amending a commit probably means the working tree is dirty
-    if (this.commitAndTag && this.gitOpts.amend !== true) {
-      const { forcePublish, conventionalCommits, conventionalGraduate } = this.options;
-      const checkUncommittedOnly = forcePublish || (conventionalCommits && conventionalGraduate);
-      const check = checkUncommittedOnly ? checkWorkingTree.throwIfUncommitted : checkWorkingTree;
-      tasks.unshift(() => check(this.execOpts));
-    } else {
-      this.logger.warn("version", "Skipping working tree validation, proceed at your own risk");
-    }
-
     return pWaterfall(tasks);
   }
 
-  execute() {
+  async execute() {
+    // Check whether working tree is clean
+    const result = await checkWorkingTree(this.execOpts);
+    console.log(result);
+
     const tasks = [() => this.updatePackageVersions()];
 
     if (this.commitAndTag) {

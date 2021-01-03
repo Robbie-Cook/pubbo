@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/prerelease-id-from-version",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Get the prerelease ID from a version string",
   "keywords": [
     "lerna",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -30,5 +30,5 @@
   "dependencies": {
     "semver": "^6.2.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

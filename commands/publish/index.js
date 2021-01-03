@@ -99,7 +99,7 @@ class PublishCommand extends Command {
       // TODO: remove in next major release
       this.logger.warn("deprecated", "Instead of --skip-npm, call `lerna version` directly");
 
-      return versionCommand(this.argv).then(() => false);
+      // return versionCommand(this.argv).then(() => false);
     }
 
     if (this.options.canary) {
@@ -169,7 +169,7 @@ class PublishCommand extends Command {
     } else if (this.options.canary) {
       chain = chain.then(() => this.detectCanaryVersions());
     } else {
-      chain = chain.then(() => versionCommand(this.argv));
+      chain = chain.then(() => versionCommand({ ...this.argv, gitTagVersion: false }));
     }
 
     return chain.then(result => {
@@ -227,6 +227,9 @@ class PublishCommand extends Command {
     chain = chain.then(() => this.serializeChanges());
     chain = chain.then(() => this.packUpdated());
     chain = chain.then(() => this.publishPacked());
+
+    // Only after everything is done, *then* tag version and update them
+    chain = chain.then(() => versionCommand(this.argv).then(() => false));
 
     if (this.gitReset) {
       chain = chain.then(() => this.resetChanges());

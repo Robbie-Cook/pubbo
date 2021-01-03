@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/filter-options",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Options for lerna sub-commands that need filtering",
   "keywords": [
     "lerna",
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/collect-updates": "0.0.5",
-    "@pubbo/filter-packages": "0.0.5",
+    "@pubbo/collect-updates": "0.0.16",
+    "@pubbo/filter-packages": "0.0.16",
     "dedent": "^0.7.0",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

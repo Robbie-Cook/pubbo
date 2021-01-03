@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/bootstrap",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Link local packages together and install remaining package dependencies",
   "keywords": [
     "lerna",
@@ -19,7 +19,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -33,18 +33,18 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "0.0.5",
-    "@pubbo/filter-options": "0.0.5",
-    "@pubbo/has-npm-version": "0.0.5",
-    "@pubbo/npm-install": "0.0.5",
-    "@pubbo/package-graph": "0.0.5",
-    "@pubbo/pulse-till-done": "0.0.5",
-    "@pubbo/rimraf-dir": "0.0.5",
-    "@pubbo/run-lifecycle": "0.0.5",
-    "@pubbo/run-topologically": "0.0.5",
-    "@pubbo/symlink-binary": "0.0.5",
-    "@pubbo/symlink-dependencies": "0.0.5",
-    "@pubbo/validation-error": "0.0.5",
+    "@pubbo/command": "0.0.11",
+    "@pubbo/filter-options": "0.0.11",
+    "@pubbo/has-npm-version": "0.0.11",
+    "@pubbo/npm-install": "0.0.11",
+    "@pubbo/package-graph": "0.0.11",
+    "@pubbo/pulse-till-done": "0.0.11",
+    "@pubbo/rimraf-dir": "0.0.11",
+    "@pubbo/run-lifecycle": "0.0.11",
+    "@pubbo/run-topologically": "0.0.11",
+    "@pubbo/symlink-binary": "0.0.11",
+    "@pubbo/symlink-dependencies": "0.0.11",
+    "@pubbo/validation-error": "0.0.11",
     "dedent": "^0.7.0",
     "get-port": "^4.2.0",
     "multimatch": "^3.0.0",
@@ -57,5 +57,5 @@
     "read-package-tree": "^5.1.6",
     "semver": "^6.2.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

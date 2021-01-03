@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/clean",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Remove the node_modules directory from all packages",
   "keywords": [
     "lerna",
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,14 +32,14 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/command": "0.0.5",
-    "@pubbo/filter-options": "0.0.5",
-    "@pubbo/prompt": "0.0.5",
-    "@pubbo/pulse-till-done": "0.0.5",
-    "@pubbo/rimraf-dir": "0.0.5",
+    "@pubbo/command": "0.0.11",
+    "@pubbo/filter-options": "0.0.11",
+    "@pubbo/prompt": "0.0.11",
+    "@pubbo/pulse-till-done": "0.0.11",
+    "@pubbo/rimraf-dir": "0.0.11",
     "p-map": "^2.1.0",
     "p-map-series": "^1.0.0",
     "p-waterfall": "^1.0.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/listable",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Shared logic for listing package information",
   "keywords": [
     "lerna",
@@ -15,7 +15,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -29,9 +29,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/query-graph": "0.0.5",
+    "@pubbo/query-graph": "0.0.16",
     "chalk": "^2.3.1",
     "columnify": "^1.5.4"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

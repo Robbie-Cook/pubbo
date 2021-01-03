@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/collect-updates",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -18,7 +18,7 @@
   ],
   "main": "collect-updates.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.5",
-    "@pubbo/describe-ref": "0.0.5",
+    "@pubbo/child-process": "0.0.16",
+    "@pubbo/describe-ref": "0.0.16",
     "minimatch": "^3.0.4",
     "npmlog": "^4.1.2",
     "slash": "^2.0.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

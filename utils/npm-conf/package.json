@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/npm-conf",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Vendored npm-conf with updates",
   "keywords": [
     "lerna",
@@ -22,7 +22,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -39,5 +39,5 @@
     "config-chain": "^1.1.11",
     "pify": "^4.0.1"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }

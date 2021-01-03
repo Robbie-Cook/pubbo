@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/exec",
-  "version": "0.0.5",
+  "version": "0.0.16",
   "description": "Execute an arbitrary command in each package",
   "keywords": [
     "lerna",
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,13 +32,13 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pubbo/child-process": "0.0.5",
-    "@pubbo/command": "0.0.5",
-    "@pubbo/filter-options": "0.0.5",
-    "@pubbo/profiler": "0.0.5",
-    "@pubbo/run-topologically": "0.0.5",
-    "@pubbo/validation-error": "0.0.5",
+    "@pubbo/child-process": "0.0.11",
+    "@pubbo/command": "0.0.11",
+    "@pubbo/filter-options": "0.0.11",
+    "@pubbo/profiler": "0.0.11",
+    "@pubbo/run-topologically": "0.0.11",
+    "@pubbo/validation-error": "0.0.11",
     "p-map": "^2.1.0"
   },
-  "gitHead": "515d6e1855db227d2a048ce2a80cfda1513d3522"
+  "gitHead": "ae676cf36e211cba5ad67c3362e1fff0db2def29"
 }
