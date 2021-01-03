@@ -169,7 +169,7 @@ class PublishCommand extends Command {
     } else if (this.options.canary) {
       chain = chain.then(() => this.detectCanaryVersions());
     } else {
-      chain = chain.then(() => versionCommand({ ...this.argv, gitTagVersion: false }));
+      chain = chain.then(() => versionCommand({ ...this.argv, gitTagVersion: false, composed: false }));
     }
 
     return chain.then((result) => {
@@ -231,7 +231,7 @@ class PublishCommand extends Command {
     }
 
     // Only after everything is done, *then* tag version and update them
-    chain = chain.then(() => versionCommand(this.argv).then(() => false));
+    chain = chain.then(() => versionCommand({ ...this.argv, composed: false }).then(() => false));
 
     if (this.gitReset) {
       chain = chain.then(() => this.resetChanges());
