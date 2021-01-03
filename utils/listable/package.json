@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/listable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared logic for listing package information",
   "keywords": [
     "lerna",

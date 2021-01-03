@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/filter-options",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Options for lerna sub-commands that need filtering",
   "keywords": [
     "lerna",

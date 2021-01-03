@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/npm-conf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vendored npm-conf with updates",
   "keywords": [
     "lerna",

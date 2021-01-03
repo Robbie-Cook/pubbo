@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/write-log-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "What lerna uses to dump logs",
   "keywords": [
     "lerna",
