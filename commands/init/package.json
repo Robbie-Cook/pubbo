@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/init",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a new Lerna repo or upgrade an existing repo to the current version of Lerna",
   "keywords": [
     "lerna",

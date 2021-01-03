@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/exec",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Execute an arbitrary command in each package",
   "keywords": [
     "lerna",

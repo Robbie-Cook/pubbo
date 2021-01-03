@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bump version of packages changed since the last release",
   "keywords": [
     "lerna",

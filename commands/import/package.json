@@ -1,6 +1,6 @@
 {
   "name": "@pubbo/import",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Import a package into the monorepo with commit history",
   "keywords": [
     "lerna",
