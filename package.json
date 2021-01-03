@@ -21,9 +21,7 @@
   "bin": {
     "pubbo": "core/pubbo/cli.js"
   },
-  "dependencies": {
-    "pubbo": "file:core/pubbo"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@pubbo-test/calls-back": "file:helpers/calls-back",
     "@pubbo-test/cli-runner": "file:helpers/cli-runner",

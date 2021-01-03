@@ -15,7 +15,7 @@
     "email": "robbie@robbie.pw"
   },
   "bin": {
-    "lerna": "cli.js"
+    "pubbo": "cli.js"
   },
   "files": [
     "index.js",
